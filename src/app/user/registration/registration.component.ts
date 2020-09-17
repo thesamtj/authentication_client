@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
-import { UserService } from './../../shared/user.service';
+import { UserService } from '../../shared/user.service';
 
 @Component({
   selector: 'app-registration',
