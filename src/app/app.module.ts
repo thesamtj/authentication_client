@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 import { ReactiveFormsModule } from "@angular/forms";
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
 import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { RegistrationComponent } from './user/registration/registration.component';
@@ -21,6 +23,8 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     HttpClient,
     ReactiveFormsModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot(),
     AppRoutingModule
   ],
   providers: [UserService],
