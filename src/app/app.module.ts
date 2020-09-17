@@ -11,6 +11,7 @@ import { UserComponent } from './user/user.component';
 import { RegistrationComponent } from './user/registration/registration.component';
 import { UserService } from './shared/user.service';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './user/login/login.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { HomeComponent } from './home/home.component';
     UserComponent,
     RegistrationComponent,
     HomeComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
